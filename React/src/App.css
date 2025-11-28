@@ -1,0 +1,85 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  background-color: #1803A5;
+  color: #96FFBD;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+table {
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+tr th {
+  border: 2px solid;
+  padding: 10px;
+  background-color: #96FFBD;
+  color: #1803A5;
+}
+
+tr td {
+  border: 1px solid;
+  padding: 10px; 
+  background-color: #1803A5;
+}
+
+input {
+  font-family:Arial, Helvetica, sans-serif;
+  height: 25px;
+  background-color: #F2EC9B;
+  color:#1803A5;
+}
+
+select {
+  font-family:Arial, Helvetica, sans-serif;
+  height: 30px;
+  background-color: #F2EC9B;
+  color:#1803A5;
+}
+
+button {
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 5px;
+  margin: 10px;
+  background-color: #96FFBD;
+  color:#1803A5;
+}
+
+.app-nav a {
+  padding: 0px 20px 5px 20px;
+  background-color:#F2EC9B;
+  text-decoration:none;
+  color:#1803A5;
+  line-height:1;
+  vertical-align:middle;
+  border-right: 2px solid #96FFBD;
+  font-size:1.3em;
+  border-radius:3px;
+}
+
+.app-nav a:hover{
+  background-color: #96FFBD;
+}
+
+header {
+  color: #1803A5;
+  background-color: #F2EC9B;
+  padding: 5px;
+  margin: 10px;
+  font-weight:bold;
+}
+
+footer {
+  color: #96FFBD;
+  padding: 20px;
+}
